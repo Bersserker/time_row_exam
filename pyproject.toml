@@ -1,0 +1,18 @@
+[project]
+name = "time-row-exam"
+version = "0.1.0"
+requires-python = ">=3.12,<3.15"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "pandas>=3.0,<3.1",
+    "pmdarima>=2.1.1",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "sktime>=1.2.0",
+    "statsmodels>=0.15.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
